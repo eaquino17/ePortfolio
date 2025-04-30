@@ -12,6 +12,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Prevent horizontal scrolling from parallax effects */
 }
 
 html {
@@ -48,6 +49,12 @@ html {
   animation: gradient 15s ease infinite;
 }
 
+/* Parallax section styling */
+.parallax-section {
+  position: relative;
+  overflow: hidden;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 10px;
@@ -64,4 +71,9 @@ html {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #8b5cf6;
+}
+
+/* Smooth transitions for parallax elements */
+.parallax-element {
+  transition: transform 0.2s ease-out;
 }

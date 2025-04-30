@@ -1,0 +1,5 @@
+// Add these dependencies to your package.json
+"dependencies": {
+  // ... your existing dependencies
+  "react-scroll-parallax": "^3.4.2"
+}

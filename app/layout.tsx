@@ -4,6 +4,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import ParticleBackground from "@/components/particle-background"
+import { ParallaxProvider } from "@/components/parallax-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -22,8 +23,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <ParticleBackground />
-          {children}
+          <ParallaxProvider>
+            <ParticleBackground />
+            {children}
+          </ParallaxProvider>
         </ThemeProvider>
       </body>
     </html>
