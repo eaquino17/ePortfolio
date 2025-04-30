@@ -367,7 +367,7 @@ export default function Home() {
       <section ref={certificationsRef} className="py-24 px-4 md:px-8 bg-gradient-to-b from-black to-gray-900">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center bg-gradient-to-r from-purple-400 to-cyan-400 text-transparent bg-clip-text">
-            Certifications & Education
+            Education & Certifications
           </h2>
 
           <Tabs defaultValue="certifications" className="w-full">
@@ -376,13 +376,13 @@ export default function Home() {
                 value="certifications"
                 className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-purple-600 data-[state=active]:to-purple-700 data-[state=active]:text-white rounded-md transition-all duration-300"
               >
-                Certifications
+                Education
               </TabsTrigger>
               <TabsTrigger
                 value="education"
                 className="data-[state=active]:bg-gradient-to-r data-[state=active]:from-cyan-600 data-[state=active]:to-cyan-700 data-[state=active]:text-white rounded-md transition-all duration-300"
               >
-                Education
+                Certifications
               </TabsTrigger>
             </TabsList>
 
@@ -392,37 +392,16 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-white">Data Science Professional Certificate</CardTitle>
-                      <CardDescription className="text-gray-400">IBM</CardDescription>
+                      <CardTitle className="text-white">Bachelor of Science in Computer Science</CardTitle>
+                      <CardDescription className="text-gray-400">Mapua University</CardDescription>
                     </div>
-                    <Badge className="bg-gradient-to-r from-purple-600 to-purple-700">2023</Badge>
+                    <Badge className="bg-gradient-to-r from-purple-600 to-purple-700">2022 - 2025</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Mastered data analysis, visualization, and machine learning techniques</li>
-                    <li>Completed 9 courses covering Python, SQL, and data science methodologies</li>
-                    <li>Built multiple projects demonstrating proficiency in data science workflows</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              {/* Certification Item 2 */}
-              <Card className="bg-gray-800 border-gray-700 hover:border-purple-500 transition-all duration-300 transform hover:-translate-y-1">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <CardTitle className="text-white">Machine Learning Specialization</CardTitle>
-                      <CardDescription className="text-gray-400">Coursera</CardDescription>
-                    </div>
-                    <Badge className="bg-gradient-to-r from-purple-600 to-purple-700">2022</Badge>
-                  </div>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Completed comprehensive training in machine learning algorithms</li>
-                    <li>Developed models for classification, regression, and clustering problems</li>
-                    <li>Applied deep learning techniques to real-world datasets</li>
+                    <li>Consistent Dean's Lister</li>
+                    <li>GPA: 1.72</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -434,20 +413,17 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-white">Bachelor of Science in Computer Science</CardTitle>
-                      <CardDescription className="text-gray-400">University Name</CardDescription>
+                      <CardTitle className="text-white">Google Data Analytics</CardTitle>
+                      <CardDescription className="text-gray-400">Google</CardDescription>
                     </div>
-                    <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700">2020 - 2024</Badge>
+                    <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700">2025</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
-                  <p>Specialization in Data Science & Analytics</p>
-                  <p className="mt-2">Relevant Coursework:</p>
+                  <p>Specialization in Data Science</p>
                   <ul className="list-disc pl-5 space-y-1 mt-1">
-                    <li>Machine Learning</li>
-                    <li>Data Structures & Algorithms</li>
-                    <li>Database Systems</li>
-                    <li>Statistical Analysis</li>
+                    <li>Consistent Dean's Lister</li>
+                    <li>GPA: 1.72</li>
                   </ul>
                 </CardContent>
               </Card>
