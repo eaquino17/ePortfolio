@@ -92,13 +92,13 @@ export default function Home() {
               </p>
 
               <div className="flex flex-wrap gap-2 mt-6">
-                <Badge className="bg-purple-600 hover:bg-purple-700">Python</Badge>
-                <Badge className="bg-blue-600 hover:bg-blue-700">Data Science</Badge>
-                <Badge className="bg-cyan-600 hover:bg-cyan-700">Machine Learning</Badge>
-                <Badge className="bg-purple-600 hover:bg-purple-700">SQL</Badge>
-                <Badge className="bg-blue-600 hover:bg-blue-700">JavaScript</Badge>
-                <Badge className="bg-cyan-600 hover:bg-cyan-700">React</Badge>
-                <Badge className="bg-purple-600 hover:bg-purple-700">Next.js</Badge>
+                <Badge className="bg-purple-600 hover:bg-blue-700">Data Science</Badge>
+                <Badge className="bg-blue-600 hover:bg-blue-700">Data Analysis</Badge>
+                <Badge className="bg-cyan-600 hover:bg-purple-700">Python</Badge>
+                <Badge className="bg-purple-600 hover:bg-cyan-700">Machine Learning</Badge>
+                <Badge className="bg-blue-600 hover:bg-purple-700">SQL</Badge>
+                <Badge className="bg-cyan-600 hover:bg-blue-700">JavaScript</Badge>
+                <Badge className="bg-purple-600 hover:bg-cyan-700">React</Badge>
               </div>
             </div>
           </div>
@@ -119,21 +119,22 @@ export default function Home() {
                 <Image src="/placeholder.svg?height=200&width=400" alt="Project 1" fill className="object-cover" />
               </div>
               <CardHeader>
-                <CardTitle className="text-white">Data Visualization Dashboard</CardTitle>
+                <CardTitle className="text-white">MoodTunes</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Interactive dashboard for visualizing complex datasets
+                  Music recommendation system based on user mood analysis
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p>
-                  Built with Python, Plotly, and Dash to create an interactive data visualization tool that helps users
-                  explore and understand complex datasets.
+                  MoodTunes is a mood-based music recommendation system built with React, Vite, Node.js, and Express,
+                  using the Cyanite and Spotify APIs to suggest songs that match your mood, with JWT-authenticated access and smooth Framer Motion animations.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
                 <div className="flex gap-2">
-                  <Badge variant="outline">Python</Badge>
-                  <Badge variant="outline">Plotly</Badge>
+                  <Badge variant="outline">Node.js</Badge>
+                  <Badge variant="outline">React</Badge>
+                  <Badge variant="outline">Vite</Badge>
                 </div>
                 <Button variant="ghost" size="sm" className="text-cyan-400 hover:text-cyan-300">
                   View Project <ExternalLink className="ml-2 h-4 w-4" />
@@ -147,19 +148,21 @@ export default function Home() {
                 <Image src="/placeholder.svg?height=200&width=400" alt="Project 2" fill className="object-cover" />
               </div>
               <CardHeader>
-                <CardTitle className="text-white">Machine Learning Model</CardTitle>
+                <CardTitle className="text-white">Hostpital Readmission Prediction</CardTitle>
                 <CardDescription className="text-gray-400">
-                  Predictive model for customer behavior analysis
+                  A comprehensive solution for predicting
+                  30-day hospital readmissions using
+                  machine learning
                 </CardDescription>
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p>
-                  Developed a machine learning model that predicts customer behavior patterns using historical data,
-                  helping businesses optimize their marketing strategies.
+                  Hospital Readmission Prediction is a web-based application built with Next.js and TypeScript that predicts 30-day hospital readmissions
+                  using machine learning, featuring interactive data visualizations and modular chart components for deep clinical insight.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <div className="flex gap-2">
+                <div className="flex gap-0.2">
                   <Badge variant="outline">TensorFlow</Badge>
                   <Badge variant="outline">Scikit-learn</Badge>
                 </div>
@@ -175,19 +178,21 @@ export default function Home() {
                 <Image src="/placeholder.svg?height=200&width=400" alt="Project 3" fill className="object-cover" />
               </div>
               <CardHeader>
-                <CardTitle className="text-white">Web Application</CardTitle>
-                <CardDescription className="text-gray-400">Full-stack web app for data management</CardDescription>
+                <CardTitle className="text-white">Cusomer Churn Prediction Model</CardTitle>
+                <CardDescription className="text-gray-400">A customer churn prediction model that analyzes bank customer data to identify those likely to leave.
+                </CardDescription>
               </CardHeader>
               <CardContent className="text-gray-300">
                 <p>
-                  Created a full-stack web application that allows users to manage and analyze their data with intuitive
-                  interfaces and powerful backend processing.
+                  A predictive analytics project built using Python and Jupyter Notebook to identify customers likely to churn based on bank customer data.
+                  The model uses demographic, financial, and behavioral features to classify churn outcomes and provide actionable business insights.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <div className="flex gap-2">
-                  <Badge variant="outline">React</Badge>
-                  <Badge variant="outline">Node.js</Badge>
+                <div className="flex gap-0.2">
+                  <Badge variant="outline">Python</Badge>
+                  <Badge variant="outline">Jupyter Notebook</Badge>
+                  <Badge variant="outline">Pandas</Badge>
                 </div>
                 <Button variant="ghost" size="sm" className="text-cyan-400 hover:text-cyan-300">
                   View Project <ExternalLink className="ml-2 h-4 w-4" />
@@ -202,16 +207,16 @@ export default function Home() {
       <section id="experience" className="py-20 px-4 md:px-8 bg-gray-900">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center bg-gradient-to-r from-purple-400 to-cyan-400 text-transparent bg-clip-text">
-            Experience & Education
+            Education & Certifications
           </h2>
 
           <Tabs defaultValue="experience" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-8 bg-gray-800">
               <TabsTrigger value="experience" className="data-[state=active]:bg-purple-600">
-                Experience
+                Education
               </TabsTrigger>
               <TabsTrigger value="education" className="data-[state=active]:bg-cyan-600">
-                Education
+                Certification
               </TabsTrigger>
             </TabsList>
 
@@ -221,37 +226,17 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-white">Data Science Intern</CardTitle>
-                      <CardDescription className="text-gray-400">Tech Company Inc.</CardDescription>
+                      <CardTitle className="text-white">Bachelor of Science in Computer Science</CardTitle>
+                      <CardDescription className="text-gray-400">Mapua University</CardDescription>
                     </div>
-                    <Badge className="bg-purple-600">2023 - Present</Badge>
+                    <Badge className="bg-purple-600">2022 - Present</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
                   <ul className="list-disc pl-5 space-y-2">
-                    <li>Analyzed large datasets to extract meaningful insights for business decisions</li>
-                    <li>Developed data visualization dashboards using Python and Tableau</li>
+                    <li>Consistent Dean's Lister</li>
+                    <li>GPA: 1.72</li>
                     <li>Collaborated with cross-functional teams to implement data-driven solutions</li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              {/* Experience Item 2 */}
-              <Card className="bg-gray-800 border-gray-700">
-                <CardHeader>
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <CardTitle className="text-white">Research Assistant</CardTitle>
-                      <CardDescription className="text-gray-400">University Research Lab</CardDescription>
-                    </div>
-                    <Badge className="bg-purple-600">2022 - 2023</Badge>
-                  </div>
-                </CardHeader>
-                <CardContent className="text-gray-300">
-                  <ul className="list-disc pl-5 space-y-2">
-                    <li>Assisted in research projects focused on machine learning applications</li>
-                    <li>Implemented algorithms and conducted experiments to validate research hypotheses</li>
-                    <li>Co-authored a research paper on predictive analytics</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -263,10 +248,10 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-white">Bachelor of Science in Computer Science</CardTitle>
-                      <CardDescription className="text-gray-400">University Name</CardDescription>
+                      <CardTitle className="text-white">Google Data Analytics</CardTitle>
+                      <CardDescription className="text-gray-400">Google</CardDescription>
                     </div>
-                    <Badge className="bg-cyan-600">2020 - 2024</Badge>
+                    <Badge className="bg-cyan-600">2025</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
