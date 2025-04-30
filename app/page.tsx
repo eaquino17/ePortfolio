@@ -131,7 +131,7 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <div className="flex gap-2">
+                <div className="grid gap-2">
                   <Badge variant="outline">Node.js</Badge>
                   <Badge variant="outline">React</Badge>
                   <Badge variant="outline">Vite</Badge>
@@ -162,7 +162,7 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <div className="flex gap-0.2">
+                <div className="grid gap-2">
                   <Badge variant="outline">TensorFlow</Badge>
                   <Badge variant="outline">Scikit-learn</Badge>
                 </div>
@@ -189,10 +189,9 @@ export default function Home() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-between">
-                <div className="flex gap-0.2">
+                <div className="grid gap-2">
                   <Badge variant="outline">Python</Badge>
                   <Badge variant="outline">Jupyter Notebook</Badge>
-                  <Badge variant="outline">Pandas</Badge>
                 </div>
                 <Button variant="ghost" size="sm" className="text-cyan-400 hover:text-cyan-300">
                   View Project <ExternalLink className="ml-2 h-4 w-4" />
