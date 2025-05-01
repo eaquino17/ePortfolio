@@ -32,6 +32,6 @@ npm run dev
 ## 📬 Contact
 
 Feel free to connect with me:  
-📧 your.email@example.com  
+📧 aquino.ericbernard17@gmail.com 
 🔗 [LinkedIn](https://www.linkedin.com/in/eric-bernard-aquino/)  
 🌐 [Portfolio Website](https://v0-portfolio-improvement-chi.vercel.app/)
