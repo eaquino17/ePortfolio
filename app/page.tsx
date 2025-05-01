@@ -160,7 +160,7 @@ export default function Home() {
             <div className="md:col-span-1 transform transition-all duration-500 hover:scale-105">
               <div className="relative w-48 h-48 mx-auto overflow-hidden rounded-full border-4 border-purple-500 shadow-lg shadow-purple-500/20">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="selfpic.jpg"
                   alt="Profile"
                   width={200}
                   height={200}
@@ -181,26 +181,26 @@ export default function Home() {
               </p>
 
               <div className="flex flex-wrap gap-2 mt-6">
-                <Badge className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 transition-colors py-1 px-3">
-                  Python
-                </Badge>
-                <Badge className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 transition-colors py-1 px-3">
+                <Badge className="bg-gradient-to-r from-blue-600 to-purple-700 hover:from-blue-500 hover:to-blue-600 transition-colors py-1 px-3">
                   Data Science
                 </Badge>
-                <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
+                <Badge className="bg-gradient-to-r from-purple-600 to-cyan-700 hover:from-purple-500 hover:to-purple-600 transition-colors py-1 px-3">
+                  Data Analysis
+                </Badge>
+                <Badge className="bg-gradient-to-r from-cyan-600 to-blue-700 hover:from-blue-500 hover:to-cyan-600 transition-colors py-1 px-3">
                   Machine Learning
                 </Badge>
-                <Badge className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 transition-colors py-1 px-3">
+                <Badge className="bg-gradient-to-r from-blue-600 to-purple-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
+                  Python
+                </Badge>
+                <Badge className="bg-gradient-to-r from-purple-600 to-cyan-700 hover:from-purple-500 hover:to-purple-600 transition-colors py-1 px-3">
                   SQL
                 </Badge>
-                <Badge className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 transition-colors py-1 px-3">
+                <Badge className="bg-gradient-to-r from-cyan-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 transition-colors py-1 px-3">
                   JavaScript
                 </Badge>
-                <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
+                <Badge className="bg-gradient-to-r from-blue-600 to-purple-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
                   React
-                </Badge>
-                <Badge className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 transition-colors py-1 px-3">
-                  Next.js
                 </Badge>
               </div>
             </div>
@@ -221,7 +221,7 @@ export default function Home() {
               <Card className="bg-gray-800 border-gray-700 overflow-hidden hover:border-purple-500 transition-all duration-300 h-full transform hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/10">
                 <div className="h-48 relative overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="churnproj.jpeg"
                     alt="Project 1"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -229,34 +229,40 @@ export default function Home() {
                 </div>
                 <CardHeader>
                   <CardTitle className="text-white group-hover:text-purple-400 transition-colors">
-                    Data Visualization Dashboard
+                    Churn Prediction Model
                   </CardTitle>
                   <CardDescription className="text-gray-400">
-                    Interactive dashboard for visualizing complex datasets
+                    Prediction model to find out which customers might stop using a product or service.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-gray-300">
                   <p>
-                    Built with Python, Plotly, and Dash to create an interactive data visualization tool that helps
-                    users explore and understand complex datasets.
+                    A predictive analytics project built using Python and Jupyter Notebook to identify
+                    customers likely to churn based on bank customer data. The model uses demographic, financial, and behavioral features to classify churn outcomes and provide actionable business insights.
                   </p>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <div className="flex gap-2">
+                  <div className="grid gap-2">
                     <Badge variant="outline" className="border-purple-500 text-purple-400">
                       Python
                     </Badge>
                     <Badge variant="outline" className="border-cyan-500 text-cyan-400">
-                      Plotly
+                      Jupyter Notebook
                     </Badge>
                   </div>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="text-cyan-400 hover:text-cyan-300 group-hover:bg-gray-700/50"
+                  <a
+                    href="https://github.com/eaquino17/ChurnPredictionModel.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    View Project <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      className="text-cyan-400 hover:text-cyan-300 group-hover:bg-gray-700/50"
+                    >
+                      View Project <ExternalLink className="ml-2 h-4 w-4" />
+                    </Button>
+                  </a>
                 </CardFooter>
               </Card>
             </div>
@@ -266,7 +272,7 @@ export default function Home() {
               <Card className="bg-gray-800 border-gray-700 overflow-hidden hover:border-purple-500 transition-all duration-300 h-full transform hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/10">
                 <div className="h-48 relative overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="moodtunes.jpeg"
                     alt="Project 2"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -274,34 +280,45 @@ export default function Home() {
                 </div>
                 <CardHeader>
                   <CardTitle className="text-white group-hover:text-purple-400 transition-colors">
-                    Machine Learning Model
+                    MoodTunes
                   </CardTitle>
                   <CardDescription className="text-gray-400">
-                    Predictive model for customer behavior analysis
+                    Music recommendation system based on
+                    the user’s mood.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-gray-300">
                   <p>
-                    Developed a machine learning model that predicts customer behavior patterns using historical data,
-                    helping businesses optimize their marketing strategies.
+                    MoodTunes is a mood-based music recommendation system built with React, Vite, Node.js, and Express,
+                    using the Cyanite and Spotify APIs to suggest songs that match your mood,
+                    with JWT-authenticated access and smooth Framer Motion animations.
                   </p>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <div className="flex gap-2">
+                  <div className="grid gap-2">
                     <Badge variant="outline" className="border-purple-500 text-purple-400">
-                      TensorFlow
+                      React
                     </Badge>
                     <Badge variant="outline" className="border-cyan-500 text-cyan-400">
-                      Scikit-learn
+                      Node.js
+                    </Badge>
+                    <Badge variant="outline" className="border-purple-500 text-purple-400">
+                      Spotify & Cyanite API
                     </Badge>
                   </div>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="text-cyan-400 hover:text-cyan-300 group-hover:bg-gray-700/50"
+                  <a
+                    href="https://github.com/eaquino17/MoodTunes.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    View Project <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      className="text-cyan-400 hover:text-cyan-300 group-hover:bg-gray-700/50"
+                    >
+                      View Project <ExternalLink className="ml-2 h-4 w-4" />
+                    </Button>
+                  </a>
                 </CardFooter>
               </Card>
             </div>
@@ -311,7 +328,7 @@ export default function Home() {
               <Card className="bg-gray-800 border-gray-700 overflow-hidden hover:border-purple-500 transition-all duration-300 h-full transform hover:-translate-y-2 hover:shadow-xl hover:shadow-purple-500/10">
                 <div className="h-48 relative overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="readmission.jpeg"
                     alt="Project 3"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -319,32 +336,38 @@ export default function Home() {
                 </div>
                 <CardHeader>
                   <CardTitle className="text-white group-hover:text-purple-400 transition-colors">
-                    Web Application
+                    Hospital Readmission Prediction
                   </CardTitle>
-                  <CardDescription className="text-gray-400">Full-stack web app for data management</CardDescription>
+                  <CardDescription className="text-gray-400">Web-based application that predicts 30-day hospital readmissions using machine learning</CardDescription>
                 </CardHeader>
                 <CardContent className="text-gray-300">
                   <p>
-                    Created a full-stack web application that allows users to manage and analyze their data with
-                    intuitive interfaces and powerful backend processing.
+                    A full-stack web application developed using Next.js and TypeScript. The project incorporates an intuitive dashboard
+                    and rich data visualizations to help healthcare professionals analyze patterns and risk factors associated with patient readmissions.
                   </p>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <div className="flex gap-2">
+                  <div className="grid gap-2">
                     <Badge variant="outline" className="border-purple-500 text-purple-400">
-                      React
+                      Next.js
                     </Badge>
                     <Badge variant="outline" className="border-cyan-500 text-cyan-400">
-                      Node.js
+                      TypeScript
                     </Badge>
                   </div>
-                  <Button
-                    variant="ghost"
-                    size="sm"
-                    className="text-cyan-400 hover:text-cyan-300 group-hover:bg-gray-700/50"
+                  <a
+                    href="https://hospital-readmission-prediction.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    View Project <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      className="text-cyan-400 hover:text-cyan-300 group-hover:bg-gray-700/50"
+                    >
+                      View Project <ExternalLink className="ml-2 h-4 w-4" />
+                    </Button>
+                  </a>
                 </CardFooter>
               </Card>
             </div>
@@ -399,6 +422,11 @@ export default function Home() {
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
+                  <p>
+                    Specializing in Data Science
+                  </p>
+                </CardContent>
+                <CardContent className="text-gray-300">
                   <ul className="list-disc pl-5 space-y-2">
                     <li>Consistent Dean's Lister</li>
                     <li>GPA: 1.72</li>
@@ -420,10 +448,30 @@ export default function Home() {
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
-                  <p>Specialization in Data Science</p>
+                  <p>
+                    Completed the Google Data Analytics Certificate, developing skills in data cleaning, analysis, visualization, and using tools like SQL, spreadsheets, and Tableau to drive data-informed decision-making.
+                  </p>
+                </CardContent>
+                <CardContent className="text-gray-300">
                   <ul className="list-disc pl-5 space-y-1 mt-1">
-                    <li>Consistent Dean's Lister</li>
-                    <li>GPA: 1.72</li>
+                    <li>Course Certificates Completed
+
+                      Foundations: Data, Data, Everywhere
+
+                      Ask Questions to Make Data-Driven Decisions
+
+                      Prepare Data for Exploration
+
+                      Process Data from Dirty to Clean
+
+                      Analyze Data to Answer Questions
+
+                      Share Data Through the Art of Visualization
+
+                      Data Analysis with R Programming
+
+                      Google Data Analytics Capstone: Complete a Case Study</li>
+
                   </ul>
                 </CardContent>
               </Card>
@@ -433,15 +481,32 @@ export default function Home() {
                 <CardHeader>
                   <div className="flex justify-between items-start">
                     <div>
-                      <CardTitle className="text-white">Data Science Certification</CardTitle>
-                      <CardDescription className="text-gray-400">Online Learning Platform</CardDescription>
+                      <CardTitle className="text-white">IBM Data Science</CardTitle>
+                      <CardDescription className="text-gray-400">IBM</CardDescription>
                     </div>
-                    <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700">2022</Badge>
+                    <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700">2025</Badge>
                   </div>
                 </CardHeader>
                 <CardContent className="text-gray-300">
                   <p>
                     Comprehensive certification covering data analysis, visualization, and machine learning techniques.
+                  </p>
+                </CardContent>
+              </Card>
+              {/* Education Item 3 */}
+              <Card className="bg-gray-800 border-gray-700 hover:border-cyan-500 transition-all duration-300 transform hover:-translate-y-1">
+                <CardHeader>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <CardTitle className="text-white">AWS Academy Cloud Foundations</CardTitle>
+                      <CardDescription className="text-gray-400">Amazon Web Services</CardDescription>
+                    </div>
+                    <Badge className="bg-gradient-to-r from-cyan-600 to-cyan-700">2025</Badge>
+                  </div>
+                </CardHeader>
+                <CardContent className="text-gray-300">
+                  <p>
+                    Completed AWS Academy Cloud Foundations, gaining essential knowledge in cloud computing, AWS core services, security, architecture, and pricing to support cloud-based solutions.
                   </p>
                 </CardContent>
               </Card>
