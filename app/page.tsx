@@ -202,6 +202,12 @@ export default function Home() {
                 <Badge className="bg-gradient-to-r from-blue-600 to-purple-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
                   React
                 </Badge>
+                <Badge className="bg-gradient-to-r from-purple-600 to-cyan-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
+                  Excel
+                </Badge>
+                <Badge className="bg-gradient-to-r from-cyan-600 to-blue-700 hover:from-cyan-500 hover:to-cyan-600 transition-colors py-1 px-3">
+                  Juoyter Notebook
+                </Badge>
               </div>
             </div>
           </div>
