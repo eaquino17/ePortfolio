@@ -1,7 +1,3 @@
-Certainly! Here's a professional and concise `README.md` content for your GitHub ePortfolio project:
-
----
-
 # 🎓 My ePortfolio
 
 Welcome to my **ePortfolio**, a personal website built to showcase my academic journey, projects, certifications, and skills as a Computer Science student specializing in **Data Science** at Mapúa University.
