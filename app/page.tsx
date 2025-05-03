@@ -498,6 +498,28 @@ export default function Home() {
                     Comprehensive certification covering data analysis, visualization, and machine learning techniques.
                   </p>
                 </CardContent>
+                <CardContent className="text-gray-300">
+                  <ul className="list-disc pl-5 space-y-1 mt-1">
+                    <li>Course Certificates Completed
+
+                      Foundations: Data, Data, Everywhere
+
+                      Ask Questions to Make Data-Driven Decisions
+
+                      Prepare Data for Exploration
+
+                      Process Data from Dirty to Clean
+
+                      Analyze Data to Answer Questions
+
+                      Share Data Through the Art of Visualization
+
+                      Data Analysis with R Programming
+
+                      Google Data Analytics Capstone: Complete a Case Study</li>
+
+                  </ul>
+                </CardContent>
               </Card>
               {/* Education Item 3 */}
               <Card className="bg-gray-800 border-gray-700 hover:border-cyan-500 transition-all duration-300 transform hover:-translate-y-1">
@@ -518,6 +540,16 @@ export default function Home() {
               </Card>
             </TabsContent>
           </Tabs>
+        </div>
+        <div className="mt-12 text-center">
+          <a
+            href="https://www.linkedin.com/in/eric-bernard-aquino/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors"
+          >
+            View more certificates on LinkedIn <ArrowRight className="ml-2 h-4 w-4" />
+          </a>
         </div>
       </section>
 
